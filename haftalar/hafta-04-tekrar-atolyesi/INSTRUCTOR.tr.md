@@ -30,7 +30,7 @@ Her görevden önce üç soru sorun: “Bir turda ne oluyor? Kaç tur var? Tekra
 4. Görev açıklaması ayrı ve açık bir yorum kartı olarak görünür. Okuduktan sonra kapatabilirsiniz. Blokların üstüne gelirse kartı üst çubuğundan tutup boş bir yere sürükleyin; gerekirse sağ alt köşesinden boyutunu değiştirin.
 5. [Çözüm dosyasını](cozumler/) yetişkine ait ayrı bir projede tutun.
 
-Her çocuk dosyası bir `/* ... */` görev yorumuyla başlar. İlk beş dosyada `*/` ile kod arasında **bir boş satır** vardır; bunu koruyun. Böylece MakeCode açıklamayı, bir bloğa bağlı kapalı yorum yerine açık çalışma alanı yorumu olarak gösterebilir. JavaScript kartın ekrandaki konumunu veya boyutunu sabitlemez.
+Her çocuk dosyası ve eşleşen çözümü aynı yıldızlı `/* ... */` görev kartıyla başlar. Kartta Türkçe görev numarası/başlığı ve hikâyesi ile `HEDEF:`, `KURAL:` ve `DENEME:` bölümleri yer alır; ardından `TASK`, `STORY:`, `GOAL:`, `RULE:` ve `TEST:` başlıklarıyla eksiksiz İngilizce karşılığı gelir. İlk beş dosyada `*/` ile kod arasında **bir boş satır** vardır; bunu koruyun. Böylece MakeCode açıklamayı, bir bloğa bağlı kapalı yorum yerine açık çalışma alanı yorumu olarak gösterebilir. JavaScript kartın ekrandaki konumunu veya boyutunu sabitlemez.
 
 **1–5. görevlerde şunu söyleyin:** “Bütün parçalar burada. Blok eklemeyin, silmeyin, çoğaltmayın ve hazır sayıları değiştirmeyin. Parçaları taşıyarak hedefe ulaşın.” Araç kutusu teknik olarak kilitli değildir; bu, etkinliğin kuralıdır.
 

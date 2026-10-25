@@ -10,7 +10,7 @@ Paketlerdeki üç ek `ek-` alıştırmasının kuralları farklıdır. Geçici a
 
 Her ana `-cocuklar.ts` dosyasının tamamını ayrı bir MakeCode projesinin JavaScript sekmesine yapıştırın, ardından **Bloklar** görünümüne geçin. Ekranı çocuklara bundan sonra verin. Tam çözümleri ayrı tutun.
 
-Hikâye ve hedef, baştaki `/* ... */` yorumundan üretilen açık görev kartında görünür. Yorum ile program arasındaki boş satırı koruyun. Kartı sağ alt köşesinden büyütebilir veya başlığından sürükleyebilirsiniz. Kaynak dosyaları kartın boyutunu ve konumunu saklamaz.
+Ana/bonus ve ek alıştırmaların tüm kartlarında aynı yönergeler Türkçe ve İngilizce bulunur. Görev numarası/başlığı ve hikâyesinin yanı sıra `HEDEF:` / `GOAL:`, `KURAL:` / `RULE:` ve `DENEME:` / `TEST:` bölümleri vardır. Eşleşen çözüm aynı kartı kullanır. Baştaki yıldızlı `/* ... */` yorumu açık bir görev kartına dönüşebilir. Yorum ile program arasındaki boş satırı koruyun. Kartı sağ alt köşesinden büyütebilir veya başlığından sürükleyebilirsiniz. Kaynak dosyaları kartın boyutunu ve konumunu saklamaz.
 
 **“Göreviniz bu. İhtiyacınız olan her blok burada. Blok eklemeyin, silmeyin, çoğaltmayın veya değiştirmeyin. Yalnızca taşıyın.”**
 

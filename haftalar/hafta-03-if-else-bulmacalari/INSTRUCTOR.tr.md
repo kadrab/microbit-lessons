@@ -14,7 +14,7 @@ Bütün koşullar, karşılaştırmalar, sayılar, yüzler, sesler ve beklemeler
 
 Bir başlangıç dosyasını açtıktan sonra simülatörü durdurun. Önce hedefi anlatın ve çocukların parçaları yeniden yerleştirmesine fırsat verin. Sonra programı çalıştırıp bütün durumları deneyin. Bilerek yanlış hazırlanmış başlangıç kodunun gösterdiği yüzler hedef davranış değildir.
 
-Altı çocuk dosyasının tamamında hikâye, hedef, kurallar ve denemeler baştaki `/* ... */` yorumunda bulunur. Yorumun açık bir çalışma alanı kartı olarak görünmesi için yorum ile kod arasındaki boş satırı koruyun. Gerekirse kartı taşıyın veya boyutunu değiştirin. Çocukların JavaScript yazması gerekmez; kaynak dosyası blokları yüklemenin yoludur.
+Altı çocuk dosyasının ve eşleşen çözümlerinin tamamında aynı görev kartı, baştaki yıldızlı `/* ... */` yorumunda bulunur. Kartta Türkçe görev numarası/başlığı ve hikâyesi ile `HEDEF:`, `KURAL:` ve `DENEME:` bölümleri yer alır; ardından `TASK`, `STORY:`, `GOAL:`, `RULE:` ve `TEST:` başlıklarıyla eksiksiz İngilizce karşılığı gelir. Yorumun açık bir çalışma alanı kartı olarak görünmesi için yorum ile kod arasındaki boş satırı koruyun. Gerekirse kartı taşıyın veya boyutunu değiştirin. Çocukların JavaScript yazması gerekmez; kaynak dosyası blokları yüklemenin yoludur.
 
 **6. görev, ödev:** [06-vardiyali-uzay-kapisi-cocuklar.js](etkinlikler/06-vardiyali-uzay-kapisi-cocuklar.js) yalnızca görev yorumunu içerir. Çalıştırılabilir kod, koşul, çıktı veya `forever` bloğu sağlamaz. Varsayılan JavaScript kodunun tamamını bu dosyanın içeriğiyle değiştirin ve Bloklar görünümüne geçin. Bu kez çocuklar bütün blokları araç kutusundan seçebilir. Kurmaya başlamadan önce kâğıda bir karar ağacı çizmelerini isteyin. Değişken veya sayaç eklemeyin.
 

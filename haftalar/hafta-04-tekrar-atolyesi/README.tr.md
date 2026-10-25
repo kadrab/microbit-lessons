@@ -31,6 +31,8 @@ Ayrı [10 görevlik tekrar paketi](../../odevler/ilk-04-hafta-10-seviye/README.t
 
 Yeni bir MakeCode projesinin JavaScript sekmesindeki varsayılan kodu silip bir çocuk JavaScript dosyasının içeriğinin tamamını yapıştırın; ardından Bloklar görünümüne geçin. Görev kartının açık görünmesi için baştaki görev yorumundan sonraki boş satırı koruyun. Kaynak dosya kartın boyutunu veya konumunu saklamaz; gerekirse kartı taşıyın veya boyutunu değiştirin.
 
+Her görev kartında aynı yönergeler önce Türkçe, ardından İngilizce bulunur: görev numarası/başlığı ve hikâyesi, `HEDEF:` / `GOAL:`, `KURAL:` / `RULE:` ve `DENEME:` / `TEST:`. Çocuk ve çözüm dosyaları aynı kartı kullanır.
+
 ## Doğrulama kapsamı
 
 Korunan [mantık doğrulama betiği](verify_logic.cjs), sabit tekrar sayılarını, çıktı sırasını, değişen B girdilerini, hazır blokların listesini ve yalnızca yönerge içeren ödev kaynağını kontrol eder. Bu haftanın klasöründe `node verify_logic.cjs` komutuyla çalıştırın; sonuçları ekrana yazdırır. Taklit API testleri ve MakeCode blok dönüşümü, fiziksel cihaz veya zamanlama testlerinden ayrıdır. Bu belge güncellemesi yeni bir donanım testi yapıldığını iddia etmez.

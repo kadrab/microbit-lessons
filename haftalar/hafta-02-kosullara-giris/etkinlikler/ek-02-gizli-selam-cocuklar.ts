@@ -1,29 +1,37 @@
-// GIZLI SELAM - COCUKLAR TAMAMLA
-// MakeCode > JavaScript: dosyanin tamamini yapistir, sonra Bloklar'a gec.
-// HIKAYE: Robotun gizli selami var. Sadece sallamak yetmiyor!
-// KURAL: Robot sallandiginda A tusu basiliysa mutlu yuz gostersin.
-// A basili degilse carpi gostersin.
-// Once A'yi basili tut, sonra karti salla. Bir kez basip birakmak yetmez.
-// Sadece A'ya basmak yeni bir sonuc gostermez; kontrolu sallama baslatir.
+/*
+ * GÖREV EK 2 — GİZLİ SELAM
+ * HİKÂYE: Robotun gizli selamı var. Sadece sallamak yetmiyor!
+ * HEDEF: Robot sallandığında o anda A basılıysa mutlu yüz, değilse çarpı göster.
+ * Önce A'yı basılı tut, sonra salla. Bir kez basıp bırakmak yetmez.
+ * Yalnız A'ya basmak yeni sonuç üretmez; kontrolü sallama başlatır.
+ * KURAL: false yerine Girdi'den “A düğmesine basılı mı?” bloğunu seç.
+ * JavaScript karşılığı: input.buttonIsPressed(Button.A).
+ * İlk kafası karışık yüzü mutlu yüz, ikincisini çarpı olarak tamamla.
+ * Araç kutusunu kullanabilirsin. Başlangıçtaki küçük elması koru; bu sonuç değildir.
+ * DENEME: Tuş yokken / A basılıyken / A'ya basıp bıraktıktan sonra / yalnız B
+ * basılıyken salla. Her denemede sonuç yüzünün görünmesini bekle.
+ * A'ya basıp bırakmak ile basılı tutmak neden farklı?
+ *
+ * TASK EXTRA 2 — SECRET GREETING
+ * STORY: The robot has a secret greeting. Shaking it alone is not enough!
+ * GOAL: When the robot is shaken, show a happy face if A is held at that moment;
+ * otherwise show a cross. Hold A first, then shake. Pressing and releasing it
+ * beforehand is not enough. Pressing A alone does not produce a new result;
+ * shaking starts the check.
+ * RULE: Replace false with “button A is pressed” from Input.
+ * In JavaScript: input.buttonIsPressed(Button.A).
+ * Replace the first confused face with happy, and the second with a cross.
+ * You may use the toolbox. Keep the small startup diamond; it is not a result.
+ * TEST: Shake with no buttons / with A held / after pressing and releasing A /
+ * with only B held. Wait for the result face after each test.
+ * Why is pressing and releasing A different from holding it?
+ */
 
 input.onGesture(Gesture.Shake, function () {
-    // GOREV 1: false yerine Girdi'den "A dugmesine basili mi?" blogunu koy.
-    // JavaScript ile: input.buttonIsPressed(Button.A)
     if (false) {
-        // GOREV 2: Gizli selam dogruysa mutlu yuz sec.
         basic.showIcon(IconNames.Confused)
     } else {
-        // GOREV 3: Gizli selam yanlissa carpi sec.
         basic.showIcon(IconNames.Confused)
     }
 })
-
-// HAZIR: Baslangicta kucuk bir elmas goster. Bu bir sonuc degil.
 basic.showIcon(IconNames.SmallDiamond)
-
-// DENE 1: Hicbir tusa basmadan salla.
-// DENE 2: A'yi basili tutarak salla.
-// DENE 3: A'ya basip birak, SONRA salla.
-// DENE 4: Yalniz B'yi basili tutarak salla.
-// Her denemeden sonra sonuc yuzunun gorunmesini bekle.
-// SORU: A'ya basip birakmak ile basili tutmak neden farkli?

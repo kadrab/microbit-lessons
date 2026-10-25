@@ -27,6 +27,8 @@ All required blocks are supplied in tasks 1–5. Children solve them by moving b
 
 Paste the full contents of one child JavaScript file into a new MakeCode project's JavaScript tab, replacing its default code, then switch to Blocks. Preserve the blank line between the opening `/* ... */` task comment and the code so that the task card appears open. Move or resize it if needed. Keep the solutions with the adult.
 
+Each task card contains the same instructions in Turkish first and then English: task number/title and story, `HEDEF:` / `GOAL:`, `KURAL:` / `RULE:`, and `DENEME:` / `TEST:`. Student and solution files share the same card.
+
 ## Validation scope
 
 The retained [logic verifier](verify_logic.cjs) checks solution behavior with mocked inputs, the supplied block inventories and the instruction-only homework source. Run it with `node verify_logic.cjs` from this week folder; it prints its results. These local checks do not establish physical micro:bit behavior, sound or timing. No new hardware tests are claimed by this documentation update.

@@ -25,6 +25,35 @@ Use this outline for the lesson overview. Put detailed teaching prompts, hints, 
 
 Add valid relative links to `etkinlikler/`, `cozumler/`, `paketler/`, the counterpart README, and the instructor guide in the same language. Student and solution ZIPs must be separate. Do not include solutions in the student package.
 
+## Bilingual source task card
+
+For every `.js` or `.ts` child source and matching solution, use the same leading starred comment. Write Turkish first and the complete English translation second. Keep the task number/title, story, `HEDEF:` / `GOAL:`, `KURAL:` / `RULE:`, and `DENEME:` / `TEST:`. Use `DENEME:`, not `DENE:`. The example below illustrates the format; adapt the actual task, supplied pieces, and tests to the lesson.
+
+```javascript
+/*
+ * GÖREV 1 — ÜÇ KALP, BİR SELAM
+ * HİKÂYE: PİKO arkadaşına üç kalp gönderip mesajını bitirmek istiyor.
+ * HEDEF: A'ya kısa basıp bırak. Kalp üç kez yanıp sönsün.
+ * Her kalpten sonra ekranı temizle ve 400 ms boş bırak.
+ * Üçüncü kalpten sonra bir onay göster ve ekranda bırak.
+ * KURAL: A başlatıcısını koru. Hazır parçaları yalnızca taşı.
+ * Blok ekleme, silme, çoğaltma veya hazır değerleri değiştirme.
+ * DENEME: Üç kalp ve bir onay say. A ile yeniden başlatıp tekrar say.
+ *
+ * TASK 1 — THREE HEARTS, ONE GREETING
+ * STORY: PIKO wants to send three hearts to a friend and finish the message.
+ * GOAL: Briefly press and release A. Make a heart blink three times.
+ * After each heart, clear the display and leave it blank for 400 ms.
+ * After the third heart, show one check mark and leave it on the display.
+ * RULE: Keep the A button trigger. Only move the supplied pieces.
+ * Do not add, delete, duplicate blocks, or change supplied values.
+ * TEST: Count three hearts and one check mark. Restart with A and count again.
+ */
+
+```
+
+Preserve one blank line after the closing `*/` before executable code. For independent homework, provide only the card, with no executable starter. The same rule applies to four-week review packs and revisions of existing tasks, including additional exercises. Keep any instructional inline comments bilingual. Translate every input, result, count, threshold, timing constraint, permission, hint, and test; do not replace either language with a summary or reveal the solution in the child card. Update both languages and both files in a pair together, then rebuild the separate child and solution ZIPs.
+
 ## Teaching flow
 
 Give an estimated duration, role changes, a predict → build → test → explain sequence, and progressive hints. Put detailed answers in the instructor guide or solution folder.
@@ -37,7 +66,7 @@ State expected results for meaningful input cases. Include boundaries and change
 
 Record only checks actually performed. Distinguish local mocked logic, MakeCode block conversion, simulator behavior, and physical-device testing. Keep useful runnable checks at the lesson root; do not create a `kontrol/` or archive directory.
 
-Before delivery, check that all four required Markdown files exist, their links resolve, and both languages describe the same tasks, rules, homework, examples, and validation results. Turkish files must be full translations, not placeholders or summaries.
+Before delivery, check bilingual source-card completeness, required headings, student/solution card equality, and preserved comment/code spacing. Check that all four required Markdown files exist, their links resolve, and both languages describe the same tasks, rules, homework, examples, and validation results. Turkish files must be full translations, not placeholders or summaries.
 
 ## Four-week review checkpoint
 

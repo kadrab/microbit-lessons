@@ -10,7 +10,7 @@ The three additional `ek-` exercises included in the packages use different rule
 
 Paste each main `-cocuklar.ts` file in full into the JavaScript tab of a separate MakeCode project, then switch to **Blocks**. Hand the screen to the children afterward. Keep the complete solutions separate.
 
-The story and target appear in an open task card generated from the initial `/* ... */` comment. Preserve the blank line between the comment and the program. Resize the card from its lower-right corner or drag its title bar. Source files do not preserve its size or position.
+All main/bonus and additional exercise cards contain the same instructions in Turkish and English. They include the task number/title and story, `HEDEF:` / `GOAL:`, `KURAL:` / `RULE:`, and `DENEME:` / `TEST:`. The matching solution uses the same card. The initial starred `/* ... */` comment can become an open task card. Preserve the blank line between the comment and the program. Resize the card from its lower-right corner or drag its title bar. Source files do not preserve its size or position.
 
 **“Here is your mission. Every block you need is already here. Do not add, delete, duplicate, or change blocks. Only move them.”**
 

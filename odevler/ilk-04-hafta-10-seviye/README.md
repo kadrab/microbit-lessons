@@ -25,7 +25,7 @@ All required pieces are supplied in the first nine levels, but their placement i
 - [Student ZIP — ten tasks](paketler/ilk-04-hafta-cocuklar.zip)
 - [Solution ZIP — ten answers](paketler/ilk-04-hafta-cozumler.zip)
 
-Use a separate MakeCode project for each task. Replace the code in its JavaScript tab with the entire student file, then switch to Blocks. Keep the blank line after the opening task comment so that it becomes an open workspace comment. Student-facing code comments remain in Turkish.
+Use a separate MakeCode project for each task. Replace the code in its JavaScript tab with the entire student file, then switch to Blocks. Keep the blank line after the opening task comment so that it becomes an open workspace comment. Each task card contains the same instructions in Turkish first and then English: task number/title and story, `HEDEF:` / `GOAL:`, `KURAL:` / `RULE:`, and `DENEME:` / `TEST:`. Student and solution files share the same card.
 
 Start with about two levels per 20–30-minute session; harder tasks may need a session of their own. Do not add all ten levels as mandatory work on top of unfinished homework. When children can explain when and how often a decision is checked, a simple counting game is a suitable next step toward variables.
 

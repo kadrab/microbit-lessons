@@ -14,7 +14,7 @@ The main activities use no variables, counters, custom functions, or `for` loops
 - [Student sources](etkinlikler/).
 - [Solution sources](cozumler/).
 
-Paste each `-cocuklar.ts` file into the JavaScript tab of a separate MakeCode project, then switch to Blocks. Children do not need to write source code. The three main/bonus starter files use an opening `/* ... */` comment followed by a blank line, so the task appears as an open workspace comment. Resize or move the card if needed. The additional exercises retain their existing source comments and placeholder format; they do not follow the same open-card format.
+Paste each `-cocuklar.ts` file into the JavaScript tab of a separate MakeCode project, then switch to Blocks. Children do not need to write source code. All main/bonus and additional exercise sources use an opening starred `/* ... */` task comment followed by a blank line, so the task can appear as an open workspace comment. Each card contains the task number/title and story, then `HEDEF:`, `KURAL:`, and `DENEME:` in Turkish, followed by the complete English equivalent with `TASK`, `STORY:`, `GOAL:`, `RULE:`, and `TEST:`. Each matching solution has the same card. Resize or move it if needed. The additional exercises retain their fill-in placeholders and different permitted edits; sharing the card format does not make them move-only tasks.
 
 For the main activities, say: **“All the pieces you need are here. Do not add, delete, duplicate, or change them. Only move them.”** The toolbox is not technically locked; this is the activity rule. Keep the solutions separate from the children's starting files.
 

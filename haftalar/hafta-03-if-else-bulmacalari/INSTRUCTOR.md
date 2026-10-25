@@ -14,7 +14,7 @@ All conditions, comparisons, numbers, faces, sounds and pauses are supplied. The
 
 Stop the simulator after opening a starter file. Explain the target first and let the children rearrange the pieces. Then run the program and test every case. The faces shown by the deliberately incorrect starter are not the target behavior.
 
-All six child files include the story, target, rules and test cases in an opening `/* ... */` comment. Preserve the blank line between the comment and code so that it appears as an open workspace card. Move or resize the card if needed. Children do not have to write JavaScript; the source file is the way to load the blocks.
+All six child files and their matching solutions include the same task card in an opening starred `/* ... */` comment. It contains the task number/title and story, then `HEDEF:`, `KURAL:`, and `DENEME:` in Turkish, followed by the complete English equivalent with `TASK`, `STORY:`, `GOAL:`, `RULE:`, and `TEST:`. Preserve the blank line between the comment and code so that it appears as an open workspace card. Move or resize the card if needed. Children do not have to write JavaScript; the source file is the way to load the blocks.
 
 **Task 6, homework:** [06-vardiyali-uzay-kapisi-cocuklar.js](etkinlikler/06-vardiyali-uzay-kapisi-cocuklar.js) contains only its task comment. It supplies no executable code, conditions, outputs or `forever` block. Replace all default JavaScript with this file and switch to Blocks. This time the children may choose every block from the toolbox. Ask them to draw a decision tree on paper before building. Do not introduce variables or counters.
 

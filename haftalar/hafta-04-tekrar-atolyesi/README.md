@@ -31,6 +31,8 @@ The separate [ten-task review pack](../../odevler/ilk-04-hafta-10-seviye/README.
 
 Paste the full contents of one child JavaScript file into a new MakeCode project's JavaScript tab, replacing its default code, then switch to Blocks. Preserve the blank line after the opening task comment so that its card appears open. The source does not preserve the card's size or position; move or resize it if needed.
 
+Each task card contains the same instructions in Turkish first and then English: task number/title and story, `HEDEF:` / `GOAL:`, `KURAL:` / `RULE:`, and `DENEME:` / `TEST:`. Student and solution files share the same card.
+
 ## Validation scope
 
 The retained [logic verifier](verify_logic.cjs) checks fixed repetition counts, output order, changing B inputs, supplied block inventories and the instruction-only homework source. Run it with `node verify_logic.cjs` from this week folder; it prints its results. Mocked API tests and MakeCode block conversion are separate from physical device or timing tests. No new hardware tests are claimed by this documentation update.

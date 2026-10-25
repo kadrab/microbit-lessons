@@ -25,7 +25,7 @@ Bu ortak ödev paketi, yeni bir kavram eklemeden işlem sırasını, `forever`, 
 - [Çocuk ZIP'i — on görev](paketler/ilk-04-hafta-cocuklar.zip)
 - [Çözüm ZIP'i — on yanıt](paketler/ilk-04-hafta-cozumler.zip)
 
-Her görev için ayrı bir MakeCode projesi kullanın. JavaScript sekmesindeki kodun tamamını çocuk dosyasının içeriğiyle değiştirin, ardından Bloklar görünümüne geçin. Görev açıklamasının açık bir çalışma alanı yorumuna dönüşmesi için baştaki yorumdan sonraki boş satırı koruyun. Çocuklara yönelik kod yorumları Türkçe kalır.
+Her görev için ayrı bir MakeCode projesi kullanın. JavaScript sekmesindeki kodun tamamını çocuk dosyasının içeriğiyle değiştirin, ardından Bloklar görünümüne geçin. Görev açıklamasının açık bir çalışma alanı yorumuna dönüşmesi için baştaki yorumdan sonraki boş satırı koruyun. Her görev kartında aynı yönergeler önce Türkçe, ardından İngilizce bulunur: görev numarası/başlığı ve hikâyesi, `HEDEF:` / `GOAL:`, `KURAL:` / `RULE:` ve `DENEME:` / `TEST:`. Çocuk ve çözüm dosyaları aynı kartı kullanır.
 
 Başlangıçta 20–30 dakikalık bir oturumda yaklaşık iki seviye hedefleyin; zor görevlerin her biri ayrı bir oturum gerektirebilir. Tamamlanmamış ödevlerin üzerine on seviyenin tamamını zorunlu iş olarak eklemeyin. Çocuklar bir kararın ne zaman ve ne sıklıkla kontrol edildiğini açıklayabildiğinde, basit bir sayma oyunu değişkenlere geçiş için uygun bir sonraki adımdır.
 

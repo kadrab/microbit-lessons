@@ -1,6 +1,6 @@
 # micro:bit lessons
 
-MakeCode learning materials for children aged 8–12. Weekly lessons and cumulative homework are separate. Repository and agent documentation is in English. All four existing weeks and the cumulative homework pack include their README and instructor guide in both English and Turkish. New weekly lessons and review packs must provide the same bilingual documents. Task cards inside MakeCode source files remain in Turkish.
+MakeCode learning materials for children aged 8–12. Weekly lessons and cumulative homework are separate. Repository and agent documentation is in English. All four existing weeks and the cumulative homework pack include their README and instructor guide in both English and Turkish. New weekly lessons and review packs must provide the same bilingual documents. Task cards inside MakeCode source files include the same explanation in Turkish and English, with a task title, story, goal, rules, and tests.
 
 ## Weekly lessons
 
@@ -38,18 +38,21 @@ verify_logic.cjs       # useful logic checks, where available
 
 Open a child's source file, paste its complete contents into MakeCode's JavaScript view, and switch to Blocks. The source files are not files to copy directly to the micro:bit drive. Keep solutions with the adult until the children have attempted the task.
 
-Preserve the blank line between a leading `/* ... */` task comment and executable code. The comment can appear as an open workspace card; its size and position may need adjustment. Additional week-2 exercises use their original fill-in format rather than the ready-block rule; see that week's guide.
+Each source card starts with Turkish task instructions and their complete English translation: task number/title and story, `HEDEF:` / `GOAL:`, `KURAL:` / `RULE:`, and `DENEME:` / `TEST:`. Student and solution files share the same card. Preserve the blank line between the leading `/* ... */` task comment and executable code. The comment can appear as an open workspace card; its size and position may need adjustment. Additional week-2 exercises use their original fill-in format rather than the ready-block rule; see that week's guide.
 
 ## Repository rules
 
 - [Agent instructions](AGENTS.md), [workflow](agent/README.md), and [weekly template](agent/LESSON_TEMPLATE.md) define how to prepare future material.
 - Each new week and four-week review pack requires `README.md` and `INSTRUCTOR.md` in English, plus `README.tr.md` and `INSTRUCTOR.tr.md` in Turkish, with complete equivalent content and working links between languages.
+- Source task cards are bilingual too, including existing tasks and additional exercises. Keep both languages equivalent and rebuild the packages whenever source comments change.
 - Student files, solutions, and ZIP packages are kept separate.
 - There are no retained archives, backups, legacy delivery copies, or `kontrol/` report folders.
 - Useful checks remain as runnable scripts at lesson roots. They print results without creating report directories.
 - `graphify-out/` is generated tooling output and is excluded by `.gitignore`.
 
 ## Validation and review
+
+Run `node verify_task_comments.cjs` from the repository root to check required bilingual headings, task numbers, comment/code spacing, and matching cards in student/solution pairs. This structural check does not verify translation meaning, MakeCode rendering, or physical-device behavior.
 
 The source programs were preserved while their locations changed. The retained logic checks use mocked MakeCode APIs; they do not establish physical-device behavior. Run a lesson's verifier with `node path/to/verify_logic.cjs` when checking a relevant change.
 

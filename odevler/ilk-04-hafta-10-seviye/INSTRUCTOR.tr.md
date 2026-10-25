@@ -18,7 +18,7 @@ Her görevde bir çocuk programı kursun, diğeri kontrol etsin; sonraki görevd
 
 Her görev için ayrı bir MakeCode projesi oluşturun. `etkinlikler/` içindeki `-cocuklar.js` dosyasının tamamını JavaScript sekmesindeki mevcut kodun yerine yapıştırın, ardından Bloklar görünümüne geçin. Çocukların JavaScript yazması gerekmez; dosya hazır parçaları yükler. Tam yanıtlar `cozumler/` içinde ayrı dosyalardadır.
 
-Görev açıklaması, dosyanın başındaki `/* ... */` yorumundadır. Açıklamanın ayrı ve açık bir çalışma alanı yorumuna dönüşmesi için **yorum ile kod arasındaki boş satırı koruyun**. Kart blokların üzerini kapatırsa üst çubuğundan taşıyın ve köşesinden boyutunu değiştirin. JavaScript dosyası kartın ekrandaki yerini veya boyutunu sabitlemez. Çocuklara yönelik görev yorumları Türkçe kalır.
+Görev açıklaması, dosyanın başındaki `/* ... */` yorumundadır. Açıklamanın ayrı ve açık bir çalışma alanı yorumuna dönüşmesi için **yorum ile kod arasındaki boş satırı koruyun**. Kart blokların üzerini kapatırsa üst çubuğundan taşıyın ve köşesinden boyutunu değiştirin. JavaScript dosyası kartın ekrandaki yerini veya boyutunu sabitlemez. Her görev kartında aynı yönergeler önce Türkçe, ardından İngilizce bulunur: görev numarası/başlığı ve hikâyesi, `HEDEF:` / `GOAL:`, `KURAL:` / `RULE:` ve `DENEME:` / `TEST:`. Çocuk ve çözüm dosyaları aynı kartı kullanır.
 
 **1–9. seviyelerde şöyle söyleyin:** “Bütün parçalar burada. Blok eklemeyin, silmeyin, çoğaltmayın ve içlerindeki sayıları değiştirmeyin. Hedefe yalnızca parçaları taşıyarak ulaşın.” Olay veya `forever` kapsayıcısını koruyun. 5, 6 ve 8. seviyelerde baştaki şaşkın yüz ve 1000 ms bekleme de sabit hazırlık sırasıdır. Araç kutusu teknik olarak kilitlenmez; bu bir bulmaca kuralıdır.
 

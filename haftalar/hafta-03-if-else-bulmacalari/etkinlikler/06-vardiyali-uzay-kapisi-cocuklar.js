@@ -1,15 +1,15 @@
 /*
  * GÖREV 6 — VARDİYALI UZAY KAPISI
- *
- * Uzay kapısının gündüz ve gece kuralları farklı.
+ * HİKÂYE: Uzay kapısının gündüz ve gece kuralları farklı.
  * Bu kez hazır kod veya blok yok. Sistemi tamamen sen kuracaksın!
  *
- * HEDEF — GÜNDÜZ (ışık 80 veya daha büyük):
+ * HEDEF: Gündüz ve gece için aşağıdaki kuralları uygula.
+ * GÜNDÜZ (ışık 80 veya daha büyük):
  * A basılı değilse, B ne olursa olsun çarpı göster.
  * Yalnız A basılıysa mutlu yüz göster.
  * A ve B birlikte basılıysa onay göster.
  *
- * HEDEF — GECE (ışık 80'den küçük):
+ * GECE (ışık 80'den küçük):
  * B basılı değilse, A ne olursa olsun uykulu yüz göster.
  * Yalnız B basılıysa üzgün yüz göster.
  * A ve B birlikte basılıysa onay göster.
@@ -19,8 +19,31 @@
  * Blokları araç kutusundan kendin seç. Değişken ve sayaç kullanma.
  * Ses veya ek donanım gerekmiyor.
  *
- * DENE: Işık 20 ve 160 için hiçbir tuş / yalnız A / yalnız B / ikisi birlikte.
+ * DENEME: Işık 20 ve 160 için hiçbir tuş / yalnız A / yalnız B / ikisi birlikte.
  * Sekiz durumun hepsini dene. Tam 80'in gündüz olduğunu da kontrol et.
  * Önce karar ağacını kâğıda çiz, sonra programını oluştur.
+ *
+ * TASK 6 — SPACE GATE SHIFTS
+ * STORY: The space gate has different rules for day and night.
+ * This time there is no prepared code or blocks. You will build the whole system!
+ *
+ * GOAL: Follow the day and night rules below.
+ * DAY (light level 80 or higher):
+ * If A is not held, show a cross whatever B is doing.
+ * If only A is held, show a happy face.
+ * If A and B are both held, show a tick.
+ *
+ * NIGHT (light level below 80):
+ * If B is not held, show a sleeping face whatever A is doing.
+ * If only B is held, show a sad face.
+ * If A and B are both held, show a tick.
+ *
+ * RULE: Decide again when the light or buttons change.
+ * Show only one icon in each case; do not show the icons in turn.
+ * Choose the blocks from the toolbox yourself. Do not use variables or counters.
+ * No sound or extra hardware is needed.
+ *
+ * TEST: At light levels 20 and 160, try no buttons / only A / only B / both held.
+ * Try all eight cases. Also check that exactly 80 counts as day.
+ * Draw your decision tree on paper first, then build your program.
  */
-

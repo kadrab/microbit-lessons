@@ -62,13 +62,17 @@ Repository-level documentation, agent instructions, and templates remain in Engl
 
 All four are required. Translate the complete content and keep the pairs synchronized whenever either language changes. Do not replace a translation with a short summary. Each README links to its other-language version and its same-language instructor guide; each instructor guide links to its counterpart. Task numbering, targets, allowed changes, homework, examples, timing, and validation claims must match in both languages.
 
-This rule applies when creating new weekly lessons and review packs. Maintain the existing bilingual documents when revising their content. Child-facing task comments inside `.js` and `.ts` remain Turkish unless the user asks otherwise. Preserve the existing Turkish directory names shown above.
+This rule applies when creating new weekly lessons and review packs. Maintain the existing bilingual documents when revising their content. Task cards inside `.js` and `.ts` must also contain both Turkish and English, including when revising existing weekly lessons, review packs, or additional exercises. Preserve the existing Turkish directory names shown above.
 
 ## Task design and comments
 
 Make difficulty come from sequence, repeat boundaries, and decision timing, rather than simply adding more blocks. Teach a new concept alone before combining it with known ones. Explain whether a button is an event trigger or a held-state check and whether an input is read once or on each turn.
 
-Put the task card at the top of the child source in a starred multiline comment, followed by a blank line. It needs a short story, a measurable target, allowed edits, and test cases. Do not put the answer in the child comment. JavaScript sources do not preserve a workspace comment's size or position; those may need adjustment in MakeCode.
+Put the same task card at the top of each child source and its matching solution in one starred `/* ... */` comment. Write the Turkish version first: task number and title, a short story, `HEDEF:`, `KURAL:`, and `DENEME:`. Follow it with the complete English equivalent: `TASK`, `STORY:`, `GOAL:`, `RULE:`, and `TEST:`. Use `DENEME:` consistently, not the older `DENE:` heading. See [the template's bilingual example](LESSON_TEMPLATE.md#bilingual-source-task-card).
+
+Keep the two versions equivalent, not one full task and one summary. Inputs, outcomes, repeat counts, thresholds, timing, permitted changes, hints, and test cases must agree. Update both languages together and translate any instructional inline comments as well. Do not put the answer or solution-specific instructions in the child card; solution code stays in `cozumler/`.
+
+Preserve a blank line after the closing `*/` and before any executable code. Independent homework sources remain comment-only. Keep each language concise; JavaScript sources do not preserve a workspace comment's size or position, so those may need adjustment in MakeCode. The additional week-2 exercises use this card format too, while retaining their distinct fill-in permissions.
 
 If the task says “move only,” the completed program must use the same blocks, conditions, constants, and repeat counts. Make any permission to change values, duplicate blocks, or search the toolbox explicit.
 
@@ -80,10 +84,10 @@ Keep `graphify-out/` ignored by Git. Useful verifiers should print their result 
 
 ## Delivery checklist
 
-1. Confirm task descriptions and solutions agree, including timing and input-change behavior.
+1. Confirm task descriptions and solutions agree, including timing and input-change behavior. Check that each source has the required Turkish and English headings, complete equivalent content, and the same task card in its student/solution pair. Keep instructional inline comments bilingual too.
 2. Check that tasks 01–05 contain all and only the permitted materials, and task 06 follows the stated homework format.
-3. Run checks that meaningfully cover the change. Verify newly changed block structure and comment behavior in MakeCode when applicable.
-4. Build two current ZIPs: children only and solutions only. Check member counts, ZIP integrity, and exact source equality.
+3. Run `node verify_task_comments.cjs` from the repository root for structural source-card checks; separately review translation meaning. Run other checks that meaningfully cover the change. Verify newly changed block structure and comment behavior in MakeCode when applicable.
+4. Build two current ZIPs: children only and solutions only. Rebuild them after comment changes as well. Check member counts, ZIP integrity, and exact source equality.
 5. Check that the four required weekly documents are complete, that English and Turkish content agrees, and that the language-switch and source links work. Use the 8–12 audience range wherever ages are mentioned. Update the root lesson index. Do not invent progress or validation results.
 6. If the week number is divisible by four, finish the weekly preparation first, then prepare and check the review pack: exactly ten child/solution pairs, increasing difficulty, coverage of the correct four-week block, tasks 01–09 supplied and task 10 independent, four bilingual documents, separate verified ZIPs, and links from the ending week and root index. Reuse an existing pack for that block.
 7. Give the user a concise review summary, including the review pack when due and distinguishing local/browser evidence from physical-device testing.

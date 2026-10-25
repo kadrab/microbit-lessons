@@ -18,7 +18,7 @@ For each task, one child builds and the other checks; swap roles for the next ta
 
 Create a separate MakeCode project for each task. Paste the entire `-cocuklar.js` file from `etkinlikler/` over the existing code in the JavaScript tab, then switch to Blocks. Children do not have to write JavaScript; the file loads the prepared pieces. Complete answers are separate files in `cozumler/`.
 
-The task description is in the opening `/* ... */` comment. **Preserve the blank line between the comment and the code** so that the description becomes a separate, open workspace comment. If the card covers the blocks, move it by its top bar and resize it from a corner. A JavaScript file does not fix the card's screen position or size. Student-facing task comments remain in Turkish.
+The task description is in the opening `/* ... */` comment. **Preserve the blank line between the comment and the code** so that the description becomes a separate, open workspace comment. If the card covers the blocks, move it by its top bar and resize it from a corner. A JavaScript file does not fix the card's screen position or size. Each task card contains the same instructions in Turkish first and then English: task number/title and story, `HEDEF:` / `GOAL:`, `KURAL:` / `RULE:`, and `DENEME:` / `TEST:`. Student and solution files share the same card.
 
 **For levels 1–9, say:** “All the pieces are here. Do not add, delete, duplicate, or change the numbers in the blocks. Reach the goal only by moving the pieces.” Keep the event or `forever` wrapper. In levels 5, 6, and 8, the initial surprised face and 1000 ms pause are also a fixed preparation sequence. The toolbox is not technically locked; this is a puzzle rule.
 

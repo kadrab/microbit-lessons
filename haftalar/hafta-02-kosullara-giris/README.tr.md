@@ -14,7 +14,7 @@ Ana etkinliklerde değişken, sayaç, kullanıcı tanımlı fonksiyon veya `for`
 - [Çocuk kaynakları](etkinlikler/).
 - [Çözüm kaynakları](cozumler/).
 
-Her `-cocuklar.ts` dosyasını ayrı bir MakeCode projesinin JavaScript sekmesine yapıştırıp Bloklar'a geçin. Çocukların kaynak kod yazması gerekmiyor. Üç ana/bonus başlangıç dosyası, başta bir `/* ... */` yorumu ve ardından boş satır kullanıyor; böylece görev açık bir çalışma alanı yorumunda görünüyor. Gerekirse kartı büyütün veya taşıyın. Ek alıştırmalar eski kaynak yorumlarını ve doldurulacak alanlarını koruyor; aynı açık kart biçimini kullanmıyor.
+Her `-cocuklar.ts` dosyasını ayrı bir MakeCode projesinin JavaScript sekmesine yapıştırıp Bloklar'a geçin. Çocukların kaynak kod yazması gerekmiyor. Ana/bonus ve ek alıştırmaların tüm kaynak dosyaları, başta yıldızlı bir `/* ... */` görev yorumu ve ardından boş satır kullanır; böylece görev açık bir çalışma alanı yorumunda görünebilir. Her kartta Türkçe görev numarası/başlığı ve hikâyesi ile `HEDEF:`, `KURAL:` ve `DENEME:` bölümleri bulunur; ardından `TASK`, `STORY:`, `GOAL:`, `RULE:` ve `TEST:` başlıklarıyla eksiksiz İngilizce karşılığı gelir. Eşleşen çözüm dosyasında aynı kart bulunur. Gerekirse kartı büyütün veya taşıyın. Ek alıştırmaların doldurulacak alanları ve izin verilen farklı düzenlemeleri korunur; aynı kart biçimini kullanmaları onları yalnızca taşıma görevine dönüştürmez.
 
 Ana etkinlikler için şöyle söyleyin: **“Gerekli bütün parçalar burada. Ekleme, silme, çoğaltma veya değiştirme yapmayın. Yalnızca taşıyın.”** Araç kutusu teknik olarak kilitlenmiş değil; bu etkinliğin kuralı. Çözümleri çocukların başlangıç dosyalarından ayrı tutun.
 

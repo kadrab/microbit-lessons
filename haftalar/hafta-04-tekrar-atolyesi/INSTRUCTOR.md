@@ -30,7 +30,7 @@ Before each task, ask three questions: “What happens in one round? How many ro
 4. The task description appears as a separate, open comment card. You can collapse it after reading. If it overlaps blocks, drag its top bar into an empty area; resize it from the bottom-right corner if needed.
 5. Keep the [solution file](cozumler/) in a separate adult project.
 
-Each child file begins with a `/* ... */` task comment. In the first five files, there is **one blank line** between `*/` and the code: preserve it. This lets MakeCode show the description as an open workspace comment instead of attaching it to a block as a collapsed comment. JavaScript does not fix the card's screen position or size.
+Each child file and matching solution begins with the same starred `/* ... */` task card. It contains Turkish task number/title and story, `HEDEF:`, `KURAL:`, and `DENEME:`, followed by the complete English equivalent with `TASK`, `STORY:`, `GOAL:`, `RULE:`, and `TEST:`. In the first five files, there is **one blank line** between `*/` and the code: preserve it. This lets MakeCode show the description as an open workspace comment instead of attaching it to a block as a collapsed comment. JavaScript does not fix the card's screen position or size.
 
 **For tasks 1–5, say:** “Every piece is here. Do not add, delete or duplicate blocks, or change the supplied numbers. Reach the target by moving the pieces.” The toolbox is not technically locked; this is an activity rule.
 
