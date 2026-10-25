@@ -54,5 +54,3 @@ Preserve the blank line between a leading `/* ... */` task comment and executabl
 The source programs were preserved while their locations changed. The retained logic checks use mocked MakeCode APIs; they do not establish physical-device behavior. Run a lesson's verifier with `node path/to/verify_logic.cjs` when checking a relevant change.
 
 During the earlier directory reorganization, all four retained verifier scripts passed. The eight ZIP packages were checked for integrity and exact equality with their 56 source files. Relative Markdown links and the student/solution folder split were also checked. The subsequent Turkish documentation update checked document completeness and relative links, and confirmed that all source files, verifier scripts, and ZIP packages remained unchanged. No new browser or physical-device test was performed for these directory and documentation changes.
-
-**Publishing policy: commit or push only when explicitly authorized by the user.**
