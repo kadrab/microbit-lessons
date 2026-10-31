@@ -1,6 +1,6 @@
 # micro:bit lessons
 
-MakeCode learning materials for children aged 8–12. Weekly lessons and cumulative homework are separate. Repository and agent documentation is in English. All four existing weeks and the cumulative homework pack include their README and instructor guide in both English and Turkish. New weekly lessons and review packs must provide the same bilingual documents. Task cards inside MakeCode source files include the same explanation in Turkish and English, with a task title, story, goal, rules, and tests.
+MakeCode learning materials for children aged 8–12. Weekly lessons and cumulative homework are separate. Repository and agent documentation is in English. All five existing weeks and the cumulative homework pack include their README and instructor guide in both English and Turkish. New weekly lessons and review packs must provide the same bilingual documents. Task cards inside MakeCode source files include the same explanation in Turkish and English, with a task title, story, goal, rules, and tests.
 
 ## Weekly lessons
 
@@ -10,6 +10,7 @@ MakeCode learning materials for children aged 8–12. Weekly lessons and cumulat
 | [2 — Introduction to conditions](haftalar/hafta-02-kosullara-giris/README.md) | One `if`, then `if/else` | Two introductory tasks, an optional two-button challenge, and three clearly labelled additional exercises. | [Türkçe](haftalar/hafta-02-kosullara-giris/README.tr.md) |
 | [3 — IF/ELSE puzzles](haftalar/hafta-03-if-else-bulmacalari/README.md) | Combining and nesting decisions | Five core tasks and task 6 as homework. | [Türkçe](haftalar/hafta-03-if-else-bulmacalari/README.tr.md) |
 | [4 — Repetition workshop](haftalar/hafta-04-tekrar-atolyesi/README.md) | Fixed-count `for`, then `for` with `if/else` | Five core tasks and task 6 as homework. | [Türkçe](haftalar/hafta-04-tekrar-atolyesi/README.tr.md) |
+| [5 — The robot's memory](haftalar/hafta-05-robotun-hafizasi/README.md) | One numeric variable: store, increase, reset, then combine with familiar `for` and `if/else` | Five core tasks with supplied pieces and task 6 as independent homework. | [Türkçe](haftalar/hafta-05-robotun-hafizasi/README.tr.md) |
 
 New weekly lessons follow the **five core tasks + one homework task** format. The smaller introductory weeks have not been expanded or presented as newly completed six-task lessons.
 
